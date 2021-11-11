@@ -1,2 +1,2 @@
 # Leetcode-Problems
-Here are some leetcode practices (All in medium level)
+Some leetcode practices (All in medium level)
