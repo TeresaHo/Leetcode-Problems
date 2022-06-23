@@ -1,4 +1,4 @@
-s = "abba"
+s = "abbadkb"
 ans = 0
 h = {}
 start = 0
@@ -15,3 +15,11 @@ for i in range(len(s)):
         
     ans = max(ans,(end-start+1))
 print(ans)
+
+string = "abc"
+def test(string):
+    string+='d'
+    print('inside : ' + string)
+    return
+test(string)
+print('outside : ' + string)

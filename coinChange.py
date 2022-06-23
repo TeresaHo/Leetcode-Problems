@@ -1,4 +1,5 @@
 from collections import defaultdict
+from typing import List
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         if not amount:
@@ -19,3 +20,9 @@ class Solution:
                         f[i] = min(f[i],f[i-c] + 1)
                                               
         return f[amount]
+
+if __name__ == '__main__':
+    f = defaultdict(lambda:-1)
+    f[0] = 99
+    print(f[0])
+    print(f[2])
